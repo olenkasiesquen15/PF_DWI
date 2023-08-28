@@ -133,12 +133,12 @@ ul {
 .service{
     /* border: #e20cd0 dashed; */
     margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, 'sans-serif';
 }
 
-.service h4,
-.service h5{
-    font-family: 'Public Sans', sans-serif;
-}
+/* .service h4,
+.service h5{}    */
+
 
 .serviceOptions{
     /* border: #36e20c dashed; */
@@ -207,7 +207,8 @@ ul {
 /*MODIFICAR SI ES NECESARIO*/
 .description {
     /* border: #9dff00 dashed; */
-    margin-right: 100px;
+    margin: 2%;
+    font-size: large;
 }
 
 .description h2{
@@ -259,6 +260,7 @@ ul {
     padding-left: 25px;
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
     align-items: center; /* Alinea el contenido al centro horizontal */
     justify-content: center; /* Alinea el contenido al centro vertical */
     text-align: center; /* Centra el texto dentro del contenedor */    
