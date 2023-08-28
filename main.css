@@ -4,9 +4,26 @@
     margin: 0;
 }
 
-body{
-    background: #eeeeee;    
+.container{    
+    background-color: #eeeeee;
 }
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-4 {
+    flex: 1;
+}
+
+.col-8 {
+    flex: 3; /* Ajustar valor para controlar el ancho */
+    margin:2%;
+}
+
+
 
 .head{
     border: #2156c8 dashed;
@@ -77,10 +94,6 @@ ul {
     text-align: center;
 
     background-color: white;
-}
-
-.container{    
-    background-color: #eeeeee;
 }
 
 .op2{
@@ -291,3 +304,9 @@ ul {
 .conPrecio{
     font-weight: bold;
 }
+
+
+
+
+
+
