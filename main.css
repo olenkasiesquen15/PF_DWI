@@ -15,15 +15,15 @@
 }
 
 .col-4 {
-    flex: 1;
+    margin-left: 1%;
 }
 
 .col-8 {
-    flex: 3; /* Ajustar valor para controlar el ancho */
-    margin:2%;
+    /* border: #2156c8 dashed; */
+    flex: 1; /* Ajustar valor para controlar el ancho */
+    margin-right:5%;
+    margin-left: 3%;
 }
-
-
 
 .head{
     border: #2156c8 dashed;
@@ -131,7 +131,7 @@ ul {
 }
 
 .service{
-    /* border: #e20cd0 dashed; */
+    border: #e20cd0 dashed;
     margin-top: 25px;
     font-family: Verdana, Geneva, Tahoma, 'sans-serif';
 }
