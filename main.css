@@ -61,6 +61,7 @@ ul {
     /*OTRA FORMA DE CENTRAR*/
     /* display: grid;
     place-items: center; */
+    margin-top: 6%;    
     width: 180px;
     height: 180px;
 
