@@ -1,4 +1,4 @@
-<footer>
+    <footer>
         <h1>SService</h1>
         <p>© 2023 Todos los derechos reservados.</p>
         <div>
