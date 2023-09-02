@@ -31,7 +31,9 @@
     color: white;
     font-family: sans-serif;
     padding: 15px;
+
     display: flex;
+    justify-content: space-between;
 }
 
 ul {
@@ -39,14 +41,22 @@ ul {
 }
 
 .option{
-    border: #2156c8 dashed;    
+    border: #2156c8 dashed;
+    display: flex;
+    
 }
 
 .option ul {
-    border: #2156c8 dashed;
+    border: #92e5ff dashed;
     padding: 0px;
     display: flex;
     align-items: center;
+}
+
+.option ul a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
 }
 
 .op1 {
