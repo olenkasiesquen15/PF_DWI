@@ -26,12 +26,10 @@
 }
 
 .head{
-    border: #2156c8 dashed;
     background-color: #E84E2B;
     color: white;
     font-family: sans-serif;
     padding: 15px;
-
     display: flex;
     justify-content: space-between;
 }
@@ -40,27 +38,23 @@ ul {
     list-style: none;
 }
 
-.option{
-    border: #2156c8 dashed;
-    display: flex;
-    
-}
-
 .option ul {
-    border: #92e5ff dashed;
-    padding: 0px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .option ul a{
     text-decoration: none;
     color: white;
-    margin-left: 20px;
+    margin-right: 15px;
+    font-weight: bold;
 }
 
-.op1 {
-    margin-right: 20px;
+.option ul li{
+    background-color: #FA685B;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
 }
 
 .foto{

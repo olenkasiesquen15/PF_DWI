@@ -15,6 +15,7 @@
         <ul>
             <a href="main.php"><li class="op1">Inicio</li></a>
             <a href="nosotros.php"><li class="op1">Nosotros</li></a>
+            <a href="inicioSesion.php"><li class="op1">Iniciar Sesión</li></a>
         </ul>
     </nav>
 </header>
