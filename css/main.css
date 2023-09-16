@@ -49,6 +49,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.card1:hover, .card2:hover,
+.card3:hover, .card4:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
 .card1{
     background-color: #ffb413;
 }
