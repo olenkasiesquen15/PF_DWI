@@ -19,22 +19,24 @@
             </h2>
             <hr>
             <p class="txt2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quaerat architecto molestiae in itaque
-                fugit porro repellat ad ut atque incidunt, praesentium modi dolor perferendis optio veritatis voluptates
-                possimus. Molestiae.
+                Reserva y/o brinda tus servicios en nuestra plataforma de
+                forma rápida y sencilla.
             </p>
         </div>
 
         <form class="sesion" action="post">
             <h2>Inicia Sesión</h2>
-            
+
             <div class="datos">
                 <input type="email" class="box" placeholder="Ingresa tu correo">
                 <input type="password" class="box" placeholder="Ingresa tu contraseña">
 
                 <a href="#">¿Olvidaste tu contraseña?</a>
                 
-                <input type="submit" value="login" class="submit">
+                <!-- <input type="submit" value="login" class="submit"> -->
+                <button class="button" type="submit">
+                    Iniciar sesión
+                </button>
             </div>
         </form>
     </div>

@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #fef3ee;
+    background-color: #eeeeeee7;
 }
 
 .container{
@@ -25,7 +25,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
+    padding: 90px 50px 90px 50px;
     width: 50%;
     color: white;
 
@@ -48,12 +48,12 @@ body{
 
 .txt1{
     text-transform: capitalize; /* Pone en mayuscula cada palabra*/
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 25px;
 }
 
 .txt2{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .sesion{    
@@ -94,7 +94,7 @@ body{
     background-color: #fef3ee;
 }
 
-.submit{
+/* .submit{
     background-color: #e84e2b;
     padding: 15px;
     border: none;
@@ -103,6 +103,51 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 25px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    box-shadow: rgba(226, 155, 24, 0.25) 0px 30px 60px -12px, rgba(255, 110, 26, 0.3) 0px 18px 36px -18px;
+    transform: translateY(-0.1em);
+} */
+
+.button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e84e2b;
+    transition: all 1000ms;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #e84e2b;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ffffff;
+    transform: scale(0.9);
+    outline: 2px solid #f3a07e;
+    box-shadow: 4px 5px 17px -4px #e84e2b;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #e84e2b;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+button:hover::before {
+    width: 250%;
 }
 
 @media(max-width:990px){
