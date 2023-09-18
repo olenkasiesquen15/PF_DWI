@@ -15,16 +15,16 @@
             <br><br><br>
             <div class="cartas-locales">
                 <div class="card1">
-                    Restaurantes
+                    <a href="reservas.php">Restaurantes</a>
                 </div>
                 <div class="card2">
-                    Salon de belleza
+                    <a href="reservas.php">Salon de belleza</a>                    
                 </div>
                 <div class="card3">
-                    Barbería
+                    <a href="reservas.php">Barbería</a>                    
                 </div>
                 <div class="card4">
-                    Gimnasio
+                    <a href="reservas.php">Gimnasio</a>                    
                 </div>
             </div>            
         </div>

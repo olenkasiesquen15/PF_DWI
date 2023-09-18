@@ -112,14 +112,15 @@ body{
 } */
 
 .button {
-    padding: 1em 2em;
+    margin: 0px 25px;
+    padding: 14px 0px 14px 0px;
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
     font-weight: bold;
     text-transform: uppercase;
     color: #e84e2b;
     transition: all 1000ms;
-    font-size: 18px;
+    font-size: 15px;
     position: relative;
     overflow: hidden;
     outline: 2px solid #e84e2b;

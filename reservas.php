@@ -1,5 +1,5 @@
 <?php include("templates/encabezado.php");?>
-<?php include("templates/perfil.php");?>
+<?php include("templates/filtros.php");?>
             <div class="col-8">
                 <div class="service">
                     <h4>SERVICIOS</h4>
