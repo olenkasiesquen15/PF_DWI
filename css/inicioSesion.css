@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #fce5d8;
+}
+
+.container{
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+.info{
+    background-image: url(../img/sesion.png);
+    border-radius: 10px 0px 0px 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 50%;
+    color: white;
+
+    /* text-align: center; */
+}
+
+.info h2{
+    text-transform: uppercase; /* Todo el texto en mayuscula */
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.info hr{
+    width: 55px;
+    border: 4px solid;
+    margin-bottom: 25px;
+
+    /* margin-left: 125px; */
+}
+
+.txt1{
+    text-transform: capitalize; /* Pone en mayuscula cada palabra*/
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.txt2{
+    font-size: 18px;
+}
+
+.sesion{
+    padding: 150px 100px;
+    width: 50%;
+}
+
