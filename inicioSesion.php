@@ -27,11 +27,7 @@
 
         <form class="sesion" action="post">
             <h2>Inicia Sesión</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae, quo quas vitae possimus
-                eaque necessitatibus illo ipsam aliquid. Quam officiis atque vitae adipisci nostrum asperiores quia
-                aliquam sed similique.
-            </p>
+            
             <div class="datos">
                 <input type="email" class="box" placeholder="Ingresa tu correo">
                 <input type="password" class="box" placeholder="Ingresa tu contraseña">
