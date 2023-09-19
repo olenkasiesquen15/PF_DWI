@@ -37,6 +37,8 @@
                 <button class="button" type="submit">
                     Iniciar sesión
                 </button>
+                <br>
+                <p>¿No tienes una cuenta? <a href="#">Regístrate</a></p>
             </div>
         </form>
     </div>

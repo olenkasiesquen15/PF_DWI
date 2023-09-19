@@ -1,0 +1,20 @@
+
+.lideres{
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+}
+
+.integrantes{
+    background-color: #27d3b9;
+    /* background-color: #00f7d1; */
+    border-radius: 15px;
+    padding :2%;
+    margin : 15px 10px;
+    
+}
+
+.integrantes img{
+    width: 150px;
+    height: 150px;
+}

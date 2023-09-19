@@ -11,16 +11,16 @@
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    
 }
 
 .col-4 {
-    margin-left: 1%;
+    margin-top: 10px;
 }
 
 .col-8 {
     /* border: #2156c8 dashed; */
-    flex: 1; /* Ajustar valor para controlar el ancho */
-    margin-right:5%;
     margin-left: 3%;
 }
 
@@ -125,15 +125,19 @@ ul {
     object-fit: cover;
     border-radius: 15px 0px 0px 15px;
     margin: 0;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 
 /*MODIFICAR SI ES NECESARIO*/
 .description {
     /* border: #9dff00 dashed; */
-    margin: 2%;
-    font-size: large;
+    margin-left: 5px;
+}
+
+.description > h2,
+.description > p {
+    margin-bottom: 10px; /* Agrega un margen entre los elementos */
 }
 
 .description h2{
@@ -182,10 +186,11 @@ ul {
 
 .valoracion {
     border-left: #6E6E6E solid 1.5px;    
-    padding-left: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 9%;
     align-items: center; /* Alinea el contenido al centro horizontal */
     justify-content: center; /* Alinea el contenido al centro vertical */
     text-align: center; /* Centra el texto dentro del contenedor */    
@@ -203,13 +208,14 @@ ul {
 }
 
 .valoracion > div,
+.valoracion > p,
 .valoracion > span {
     margin-bottom: 10px; /* Agrega un margen entre los elementos */
 }
 
 .puntaje p{
     font-family: 'Public Sans', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     margin-right: 5px;
     color: #F68326;
 }
@@ -230,6 +236,7 @@ ul {
 
 .conPrecio{
     font-weight: bold;
+    font-size: 12px;
 }
 
 

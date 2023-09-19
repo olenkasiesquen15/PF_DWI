@@ -21,7 +21,7 @@
                         <iconify-icon icon="icons8:right-round" style="color: #d99bff;" width="32" height="32"></iconify-icon>
                     </div>
                     <br>
-                    <h5>Tenemos 374 restaurantes disponibles</h5>
+                    <h4>Tenemos 374 restaurantes disponibles</h4>
                     
                     <div class="carta">                        
                         <img src="img/restaurante-nikko.webp" alt="nikko">

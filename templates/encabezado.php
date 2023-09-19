@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./css/template.css">
     <link rel="stylesheet" href="./css/perfil.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/filtros.css">
+    <link rel="stylesheet" href="./css/nosotros.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>    
     <title>SService</title>
 </head>
