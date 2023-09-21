@@ -5,7 +5,7 @@ body{
 
 .nosotros{
     text-align: justify;
-    margin: 25px 300px;
+    margin: 55px 300px;
 }
 
 .mision,
@@ -32,9 +32,9 @@ body{
     width: 150px;
 }
 
-.fondo-img{
 
-    background-image: url(../img/sesion.png);    
+.fondo-img{
+    background-image: url(../img/fondo_nosotros.svg);    
     border-radius: 15px 0px 0px 15px;
     margin: 0;
     display: flex;
@@ -48,6 +48,7 @@ body{
     display: flex;
     justify-content: center ;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .integrantes{
@@ -72,5 +73,5 @@ body{
 .integrantes img{
     width: 200px;
     height: 200px;
-    margin-bottom: 25px;
+    margin-bottom: 25px;    
 }
