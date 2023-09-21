@@ -11,23 +11,36 @@ body{
 .mision,
 .vision{
     /* border: #36e20c dashed; */
-    padding: 30px;
     margin-bottom: 30px;
     border-radius: 15px;
-    display: flex;
     box-shadow: rgba(39, 122, 16, 0.4) 0px 0px 0px 2px, rgba(53, 138, 19, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    display: flex;
 }
 
 .mision h1,
 .vision h1{
     margin-bottom: 10px;
-    color: #36e20c;
+    color: #2cb60a;
+}
+
+.sector{
+    padding: 30px;
 }
 
 .mision img,
 .vision img{
     width: 150px;
-    margin-left: 20px;
+}
+
+.fondo-img{
+
+    background-image: url(../img/sesion.png);    
+    border-radius: 15px 0px 0px 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px
 }
 
 
@@ -52,10 +65,8 @@ body{
 }
 
 .integrantes:hover{
-    /* box-shadow:  14px -14px 16px #24c4ac,
-                -14px 14px 16px #2efbdc; */
-
-
+    box-shadow:  14px -14px 16px #24c4ac,
+                -14px 14px 16px #2efbdc;
 }
 
 .integrantes img{
