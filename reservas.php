@@ -27,7 +27,7 @@
                         <img src="img/restaurante-nikko.webp" alt="nikko">
 
                         <div class="description">
-                            <h2>Nikko - La Molinaaaaa</h2>
+                            <h2>Nikko - La Molina</h2>
                             <p>Pescados y mariscos | La Molina</p>
                             <span>
                                 <iconify-icon icon="bx:map" style="color: black;" width="17" height="17"></iconify-icon>

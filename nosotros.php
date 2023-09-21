@@ -3,13 +3,19 @@
 <body>
     <main class="nosotros">
         <div class="mision">
-            <h1>MISIÓN:</h1>
-            <p>"Conectar a las personas con los lugares que quieren visitar, de una manera fácil y conveniente."</p>
+            <div class="sector">
+                <h1>MISIÓN</h1>
+                <p>"Conectar a las personas con los lugares que quieren visitar, de una manera fácil y conveniente."</p>
+            </div>            
+            <img src="img/mision.svg" alt="">
         </div>
 
         <div class="vision">
-            <h1>VISIÓN:</h1>
-            <p>"Ser la plataforma de reservas de lugares más popular del mundo, ayudando a las personas a descubrir y disfrutar de nuevos lugares."</p>
+            <div class="sector">
+                <h1>VISIÓN</h1>
+                <p>"Ser la plataforma de reservas de lugares más popular del mundo, ayudando a las personas a descubrir y disfrutar de nuevos lugares."</p>
+            </div>            
+            <img src="img/vision.svg" alt="">
         </div>
     </main>
     <div class="lideres">
