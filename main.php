@@ -13,6 +13,7 @@
             <br><br><br><br>
             <h3>¿A donde irás hoy?</h3>
             <br><br><br>
+            <div class="container">
             <div class="cartas-locales">
                 <div class="card1">
                     <a href="reservas.php">Restaurantes</a>
