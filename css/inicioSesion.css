@@ -9,14 +9,27 @@ body{
     background-color: #eeeeeee7;
 }
 
-.container{
+
+.container {
     display: flex;
+    flex-direction: row; /* Cambia a columna para centrar verticalmente */
+    justify-content: center;
+    align-items: center;
     height: auto;
-    width: 1000px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-    margin: auto;
-    margin-top: 115px;
-    border-radius: 10px;
+    width: 100%;
+    margin: 50px 0;
+
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+
 }
 
 .info{
@@ -56,6 +69,107 @@ body{
     font-size: 20px;
 }
 
+/* Estilos para los botones "Iniciar Sesión" y "Registrar" */
+.toggle-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    background-color: #e84e2b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+/* Centrar los botones en la parte superior */
+.button-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los formularios */
+.input-group {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.check-box {
+    margin-right: 5px;
+}
+
+.check-box span {
+    font-size: 14px;
+}
+
+.submit{
+    background-color: #e84e2b;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    box-shadow: rgba(226, 155, 24, 0.25) 0px 30px 60px -12px, rgba(255, 110, 26, 0.3) 0px 18px 36px -18px;
+    transform: translateY(-0.1em);
+} */ */
+
+.button {
+    margin: 0px 25px;
+    padding: 14px 0px 14px 0px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e84e2b;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #e84e2b;
+    cursor: pointer;
+} 
+
+button:hover {
+    color: #ffffff;
+    transform: scale(0.9);
+    outline: 2px solid #f3a07e;
+    box-shadow: 4px 5px 17px -4px #e84e2b;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #e84e2b;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+/* 
+
 .sesion{    
     justify-content: center;
     align-items: center;
@@ -70,14 +184,14 @@ body{
     color: #d9331d;
     font-size: 35px;
     margin-bottom: 25px;
-}
+} */
 
-.datos{
+/* .login{
     display: flex;
     flex-direction: column;
 }
 
-.datos a{
+.login a{
     color: #e84e2b;
     text-decoration: none;
     font-size: 15px;
@@ -94,7 +208,7 @@ body{
     background-color: #fef3ee;
 }
 
-/* .submit{
+.submit{
     background-color: #e84e2b;
     padding: 15px;
     border: none;
@@ -109,8 +223,8 @@ body{
 .submit:hover{
     box-shadow: rgba(226, 155, 24, 0.25) 0px 30px 60px -12px, rgba(255, 110, 26, 0.3) 0px 18px 36px -18px;
     transform: translateY(-0.1em);
-} */
-
+} */ 
+/* 
 .button {
     margin: 0px 25px;
     padding: 14px 0px 14px 0px;
@@ -125,7 +239,7 @@ body{
     overflow: hidden;
     outline: 2px solid #e84e2b;
     cursor: pointer;
-}
+} 
 
 button:hover {
     color: #ffffff;
@@ -166,5 +280,4 @@ button:hover::before {
         width: 100%;
         padding: 30px;
     }
-}
-
+}  */
