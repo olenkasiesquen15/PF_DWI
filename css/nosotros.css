@@ -1,40 +1,39 @@
-
-body{
+body {
     font-family: sans-serif;
 }
 
-.nosotros{
+.nosotros {
     text-align: justify;
     margin: 55px 300px;
 }
 
 .mision,
-.vision{
+.vision {
     /* border: #36e20c dashed; */
     margin-bottom: 30px;
     border-radius: 15px;
-    box-shadow: rgba(39, 122, 16, 0.4) 0px 0px 0px 2px, rgba(53, 138, 19, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgba(16, 101, 122, 0.4) 0px 0px 0px 2px, rgba(19, 134, 138, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     display: flex;
 }
 
 .mision h1,
-.vision h1{
+.vision h1 {
     margin-bottom: 10px;
-    color: #2cb60a;
+    color: #65B5DB;
 }
 
-.sector{
+.sector {
     padding: 30px;
 }
 
 .mision img,
-.vision img{
+.vision img {
     width: 150px;
 }
 
 
-.fondo-img{
-    background-image: url(../img/fondo_nosotros.svg);    
+.fondo-img {
+    background-image: url(../img/fondo_nosotros.svg);
     border-radius: 15px 0px 0px 15px;
     margin: 0;
     display: flex;
@@ -44,34 +43,77 @@ body{
 }
 
 
-.lideres{
+.lideres {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
-.integrantes{
+.integrantes {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
     background-blend-mode: multiply;
-    /* color: #ffffff; */
-    color: #36e20c;
-    /* background-color: #00f7d1; */
+    color: #57d1e6;
     border-radius: 15px;
-    padding :50px 30px;
-    margin : 20px 30px;
-    box-shadow:  9px -9px 5px #26cc4f,
-                -9px 9px 5px #2cee4cf1;
+    padding: 50px 30px;
+    margin: 20px 60px;
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.integrantes:hover{
-    box-shadow:  14px -14px 16px #24c4ac,
-                -14px 14px 16px #2efbdc;
+.integrantes:hover {
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    box-shadow: rgb(24, 163, 255) 0px 20px 30px -10px;
 }
 
-.integrantes img{
-    width: 200px;
-    height: 200px;
-    margin-bottom: 25px;    
+.integrantes img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+    border-radius: 25px;
 }
+
+.redes-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 58px;
+
+    /* background: linear-gradient(45deg, #323232, #3c3c3c);
+    box-shadow:  6px -6px 19px #1e1e1e,
+                -6px 6px 19px #626262; */
+
+    background: #383838;
+    box-shadow: inset 6px -6px 19px #1a1a1a,
+        inset -6px 6px 19px #565656;
+}
+
+.icon-github a,
+.icon-facebook a,
+.icon-instagram a {
+    text-decoration: none;
+    color: white;    
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+}
+
+.icon-github a:hover {
+    color: transparent;
+    content: url('https://api.iconify.design/akar-icons/github-fill.svg?color=%23e84e2b&width=23&height=23');
+}
+
+.icon-facebook a:hover {
+    color: transparent;
+    content: url('https://api.iconify.design/logos/facebook.svg?color=%23e84e2b&width=23&height=23');
+}
+
+.icon-instagram a:hover {
+    color: transparent;
+    content: url('https://api.iconify.design/skill-icons/instagram.svg?color=%23e84e2b&width=23&height=23');
+}
+

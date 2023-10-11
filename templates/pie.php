@@ -1,5 +1,5 @@
     <footer>
-        <h1>SService</h1>
+        <h1>Time Tap</h1>
         <p>© 2023 Todos los derechos reservados.</p>
         <div>
             <p>REDES SOCIALES:</p>

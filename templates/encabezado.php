@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo2.png">
     <link rel="stylesheet" href="./css/template.css">
     <link rel="stylesheet" href="./css/perfil.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/filtros.css">
     <link rel="stylesheet" href="./css/nosotros.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>    
-    <title>SService</title>
+    <title>Time Tap</title>
 </head>
 
 <header class="head">
-    <h1>SService</h1>
+    <div class="logotipo">
+        <a href="./main.php">
+            <img src="./img/logo2.png" alt="">
+            <h1>Time Tap</h1>
+        </a>
+        
+    </div>
     <nav class="option">
         <ul>
             <a href="main.php"><li class="op1">Inicio</li></a>
