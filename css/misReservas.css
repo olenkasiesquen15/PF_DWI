@@ -1,0 +1,84 @@
+.reservas {
+    font-family: Verdana, Geneva, Tahoma, 'sans-serif';
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    border-radius: 15px;
+    padding: 40px 50px;
+    width: 800px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.description2 {
+    /* border: #9dff00 dashed; */
+    margin-left: 5px;
+    width: 100%;
+}
+
+.description2 h1 {
+    margin-bottom: 2.5rem;
+    padding-bottom: 5px;
+    width: 790px;
+    border-bottom: #000 1px solid;
+}
+
+.description2-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carddes {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.carddes-header {
+    background-color: #e0faff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.carddes-body {
+    padding: 1rem;
+}
+
+.carddes-body .detalle{
+    margin-bottom: 10px;
+}
+
+.carddes-footer {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.carddes-footer > button{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: transparent;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: transparent;
+    background-color: #007bff;
+}

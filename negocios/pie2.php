@@ -2,8 +2,8 @@
         <div class="grupo-1">
             <div class="box">
                 <figure>
-                    <a href="./main.php">
-                        <img src="./img/LOGOS/logo - copia.png" alt="logo de Time Tap">
+                    <a href="../main.php">
+                        <img src="../img/LOGOS/logo - copia.png" alt="logo de Time Tap">
                     </a>
                 </figure>
             </div>

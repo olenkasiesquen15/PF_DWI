@@ -27,7 +27,7 @@
                         <img src="img/restaurante-nikko.webp" alt="nikko">
 
                         <div class="description">
-                            <h2>Nikko - La Molina</h2>
+                            <h2><a href="negocios/rest-nikko.php">Nikko - La Molina</a></h2>
                             <p>Pescados y mariscos | La Molina</p>
                             <span>
                                 <iconify-icon icon="bx:map" style="color: black;" width="17" height="17"></iconify-icon>
@@ -35,7 +35,7 @@
                             </span>
                             <span>
                                 <iconify-icon icon="solar:map-outline" style="color: #4d49f5;" width="17" height="17"></iconify-icon>
-                                <a href="#">Ver mapa</a>
+                                <a href="negocios/rest-nikko.php">Ver mapa</a>
                             </span>
                             <div class="horas">
                                 <p>12:30 PM</p>

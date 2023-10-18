@@ -33,7 +33,7 @@ body {
 
 
 .fondo-img {
-    background-image: url(../img/fondo_nosotros.svg);
+    background-image: url(../img/NOSOTROS/fondo_nosotros.svg);
     border-radius: 15px 0px 0px 15px;
     margin: 0;
     display: flex;
@@ -93,27 +93,32 @@ body {
         inset -6px 6px 19px #565656;
 }
 
-.icon-github a,
-.icon-facebook a,
-.icon-instagram a {
+.icon-nosotros a{
     text-decoration: none;
-    color: white;    
     transition: all 0.5s ease-in-out;
     margin: 0;
 }
 
-.icon-github a:hover {
-    color: transparent;
-    content: url('https://api.iconify.design/akar-icons/github-fill.svg?color=%23e84e2b&width=23&height=23');
+.icon-nosotros a iconify-icon{
+    color: #fff;
 }
 
-.icon-facebook a:hover {
-    color: transparent;
-    content: url('https://api.iconify.design/logos/facebook.svg?color=%23e84e2b&width=23&height=23');
+.icon-nosotros a .git:hover{
+    color: #e40000;
 }
 
-.icon-instagram a:hover {
-    color: transparent;
-    content: url('https://api.iconify.design/skill-icons/instagram.svg?color=%23e84e2b&width=23&height=23');
+.icon-nosotros a .fb:hover{
+    color: #1877f2;
 }
+
+/* .icon-nosotros a .ig:hover{
+    color: #f85544;
+    
+} */
+
+.icon-nosotros a .ig:hover{
+    color: transparent;
+    content: url('https://api.iconify.design/skill-icons/instagram.svg?width=25&height=25');
+}
+
 

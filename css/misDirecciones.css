@@ -1,0 +1,51 @@
+.direcciones {
+    font-family: Verdana, Geneva, Tahoma, 'sans-serif';
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    border-radius: 15px;
+    padding: 40px 50px;
+    width: 800px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.description3 {
+    /* border: #9dff00 dashed; */
+    margin-left: 5px;
+    width: 100%;
+}
+
+.description3 h1 {
+    margin-bottom: 2.5rem;
+    padding-bottom: 5px;
+    width: 790px;
+    border-bottom: #000 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description3 address {
+    margin-bottom: 1rem;
+}
+
+.description3 .btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 13px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.description3 .btn iconify-icon{
+    margin-right: 10px;
+}
+
+.description3 .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

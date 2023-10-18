@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.portada img{
+    width: 100%;
+    height: 540px;
+}
+
+.portada .texto {
+    width: 50%;
+    padding: 15px 50px;
+    border-radius: 15px;
+    backdrop-filter: blur(15px); 
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portada .texto h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 75px;
+    letter-spacing: 8px;
+}
+
+.portada .texto span{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.info-restaurant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.info-restaurant .info-general{
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.info-restaurant img{
+    border-radius: 15px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.info-general h2,
+.info-general span,
+.info-general p{
+    margin-bottom: 15px;
+}
+
+.info-general p{
+    text-align: justify;
+}
+
+#bottone1 {
+    padding: 16px 33px;
+    border-radius: 30px;
+    background: #fdfdfd;
+    color: #00d407;
+    border: 3px solid #00d407;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+
+#bottone1:hover {
+    background: #00d407;
+    color: white;
+    box-shadow: 7px 5px 56px -14px #00d9b5;
+}
+
+
+.detalles-restaurant{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.detalles-restaurant h2{
+    text-align: center;
+    margin-bottom: 2rem    
+}
+
+.detalles-restaurant .detalles-grupo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalles-restaurant .detalles-grupo1 img{
+    width: 400px;
+    margin-right: 5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.detalles-grupo2 .detalles-grupo3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.detalles-grupo3 .circulo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+    background-color: rgba(204, 204, 204, 0.904);
+}

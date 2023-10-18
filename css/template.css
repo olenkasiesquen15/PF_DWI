@@ -24,14 +24,28 @@
     margin-left: 3%;
 }
 
-.head{
-    background-image: linear-gradient(to right, #fe5000 0%, #fe634f 100%);
+.nav{
+    background-image: linear-gradient(to right, black 0%, #434343 100%);
+    /* background-image: linear-gradient(to right, #fe5000 0%, #fe634f 100%); */
     color: white;
     font-family: sans-serif;
     padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    width: 98%;
+    transition: all 0.5s ease;
+    position: fixed;
+}
+
+.nav.active{
+    width: 98%;
+    padding: 25px;
+}
+
+.scrol{
+    height: 80px;
 }
 
 .logotipo a{    
@@ -41,7 +55,7 @@
     color: white;
 }
 
-.head img{    
+.nav img{    
     width: 45px;
     height: 45px;
     margin-right: 10px;
@@ -61,208 +75,112 @@ ul {
     text-decoration: none;
     color: white;
     margin-right: 15px;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 .option ul li{
-    background-color: #fa805b;
+    background-color: #646464;
+    /* background-color: #fa805b; */
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
 }
 
-.service{
-    /* border: #e20cd0 dashed; */
-    margin-top: 25px;
-    font-family: Verdana, Geneva, Tahoma, 'sans-serif';
+.option ul li:hover{
+    color: #34b7f0;
 }
 
-/* .service h4,
-.service h5{}    */
+/*:::: Pie de pagina ::::*/
 
-.serviceOptions{
-    /* border: #36e20c dashed; */
-    background-color: #ffffff;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px 20px 40px;
-    margin-top: 15px;
-}
-
-.seccion2{
-    /* border: #00ffc8 dashed; */
-    display: flex;
-    align-items: center;
-}
-
-.circle3, .circle4, .circle5 {
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    margin-right: 15px;
-    display: grid;
-    place-items: center;
-}
-
-.circle3 {
-    background-color: #FFCCAF;
-}
-
-.circle4 {
-    background-color: #FEC6FF;
-}
-
-.circle5 {
-    background-color: #D2FFDC;
-}
-
-.seccion2 p{
-    /* border: #ff0000 dashed; */
-    font-weight: bold;
-    margin: 0;
-}
-
-.carta{
-    background-color: #ffffff;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-.carta img {
-    /* border: #001aff dashed; */
-    width: 35%; /* Ajusta el ancho de la imagen según tus preferencias */
-    height: 250px;
-    object-fit: cover;
-    border-radius: 15px 0px 0px 15px;
-    margin: 0;
-    margin-right: 15px;
-}
-
-
-/*MODIFICAR SI ES NECESARIO*/
-.description {
-    /* border: #9dff00 dashed; */
-    margin-left: 5px;
-}
-
-.description > h2,
-.description > p {
-    margin-bottom: 10px; /* Agrega un margen entre los elementos */
-}
-
-.description h2{
-    font-family: 'Public Sans', sans-serif;
-}
-
-.description p{    
-    margin: 0;
-    padding-bottom: 5px;
-}
-
-.description span{
-    display: flex;
-    align-items: center;
-}
-
-.description span iconify-icon{
-    margin-right: 5px;
-}
-
-.description a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #4D49F5;
-}
-
-.horas{
-    /* border: #887007 dashed; */
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    margin-top: 15px;
-    color: #4D49F5;
-}
-
-.horas p{
-    border: #4D49F5 solid 2px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 30px;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-
-.valoracion {
-    border-left: #6E6E6E solid 1.5px;    
-    padding-left: 12px;
-    padding-right: 12px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 9%;
-    align-items: center; /* Alinea el contenido al centro horizontal */
-    justify-content: center; /* Alinea el contenido al centro vertical */
-    text-align: center; /* Centra el texto dentro del contenedor */    
-}
-
-.valoracion p{
-    margin: 0;
-}
-
-.valoracion div,
-.valoracion span {
-    /* border: #bd5b00 dashed; */
-    display: flex;
-    align-items: center;
-}
-
-.valoracion > div,
-.valoracion > p,
-.valoracion > span {
-    margin-bottom: 10px; /* Agrega un margen entre los elementos */
-}
-
-.puntaje p{
-    font-family: 'Public Sans', sans-serif;
-    font-size: 30px;
-    margin-right: 5px;
-    color: #F68326;
-}
-
-.visitas{
-    color: #3291f1;
-}
-
-.visitas iconify-icon{
-    margin-right: 5px;
-}
-
-.precio{
-    font-family: 'Public Sans', sans-serif;
-    font-size: 20px;
-    color: #F23E92;
-}
-
-.conPrecio{
-    font-weight: bold;
-    font-size: 12px;
-}
-
-
-
-
-
-
-
-
-footer{
-    background-image: linear-gradient(to right, #fe5000 0%, #fe724f 100%);
+.pie-pagina{
+    /* background-image: linear-gradient(to right, #fe5000 0%, #fe724f 100%); */
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     color: white;
     font-family: sans-serif;
-    padding: 40px;
+    /* padding: 40px; */
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 50%;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #33180d;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a iconify-icon{
+    color: #fff;
+}
+
+.pie-pagina .grupo-1 .red-social a .fb:hover{
+    color: #1877f2;
+}
+
+.pie-pagina .grupo-1 .red-social a .ig:hover{
+    /* color: #f85544; */
+    color: transparent;
+    content: url('https://api.iconify.design/skill-icons/instagram.svg?width=30&height=30');
+}
+
+.pie-pagina .grupo-1 .red-social a .wsp:hover{
+    color: #33cc33;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px;
+    }
 }
