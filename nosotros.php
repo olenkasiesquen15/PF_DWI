@@ -4,7 +4,7 @@
     <main class="nosotros">
         <div class="mision">
             <div class="fondo-img">
-                <img src="img/NOSOTROS/mision.svg" alt="">
+                <img src="img/NOSOTROS/mision.png" alt="">
             </div>
 
             <div class="sector">

@@ -86,8 +86,7 @@ ul {
 }
 
 .option ul li:hover{
-    /* color: #34b7f0; */
-    
+    background-color: #e4653e;
 }
 
 /*:::: Pie de pagina ::::*/

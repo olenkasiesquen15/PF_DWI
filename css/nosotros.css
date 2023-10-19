@@ -12,25 +12,21 @@ body {
     /* border: #36e20c dashed; */
     margin-bottom: 30px;
     border-radius: 15px;
-    box-shadow: rgba(16, 101, 122, 0.4) 0px 0px 0px 2px, rgba(19, 134, 138, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    /* box-shadow: rgba(16, 101, 122, 0.4) 0px 0px 0px 2px, rgba(19, 134, 138, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+    box-shadow: rgba(122, 85, 16, 0.4) 0px 0px 0px 2px, rgba(138, 90, 19, 0.65)0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     display: flex;
 }
 
 .mision h1,
 .vision h1 {
     margin-bottom: 10px;
-    color: #65B5DB;
+    /* color: #65B5DB; */
+    color: #ff8b32;
 }
 
 .sector {
     padding: 30px;
 }
-
-.mision img,
-.vision img {
-    width: 150px;
-}
-
 
 .fondo-img {
     background-image: url(../img/NOSOTROS/fondo_nosotros.svg);
@@ -40,6 +36,10 @@ body {
     align-items: center;
     justify-content: center;
     padding: 30px 20px
+}
+
+.fondo-img img{
+    width: 130px;   
 }
 
 
@@ -54,7 +54,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
     background-blend-mode: multiply;
-    color: #57d1e6;
+    color: #ffb66d;
     border-radius: 15px;
     padding: 50px 30px;
     margin: 20px 60px;
@@ -65,7 +65,7 @@ body {
 
 .integrantes:hover {
     /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
-    box-shadow: rgb(24, 163, 255) 0px 20px 30px -10px;
+    box-shadow: rgb(255, 97, 24) 0px 20px 30px -10px;
 }
 
 .integrantes img {
