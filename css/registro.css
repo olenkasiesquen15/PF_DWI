@@ -13,19 +13,18 @@ body {
     flex-direction: column;
 }
 
-/*:::: Inicio de sesion ::::*/
+/*:::: Registro ::::*/
 
-.container {
+.container2 {
     display: flex;
-    align-items: center;
     width: 1000px;
-    height: 570px;
+    height: 700px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     margin-top: 5rem;
 }
 
-.info {
+.info-registro {
     background-image: url(../img/sesion.png);
     border-radius: 10px 0px 0px 10px;
     background-position: center center;
@@ -33,20 +32,19 @@ body {
     background-size: cover;
     padding: 90px 50px 90px 50px;
     width: 50%;
-    height: 100%;
     color: white;
 
     /* text-align: center; */
 }
 
-.info h2 {
+.info-registro h2 {
     text-transform: uppercase;
     /* Todo el texto en mayuscula */
     font-size: 50px;
     margin-bottom: 25px;
 }
 
-.info hr {
+.info-registro hr {
     width: 55px;
     border: 4px solid;
     margin-bottom: 25px;
@@ -54,56 +52,106 @@ body {
     /* margin-left: 125px; */
 }
 
-.txt1 {
+.txt1-registro {
     text-transform: capitalize;
     /* Pone en mayuscula cada palabra*/
     font-size: 22px;
     margin-bottom: 25px;
 }
 
-.txt2 {
+.txt2-registro {
     font-size: 20px;
 }
 
-.form {
-    padding: 110px 100px;
+.form-registro {
+    padding: 75px 100px;
     width: 50%;
     text-align: center;
-    background-color: white;
+    background-color: #fff;
     border-radius: 0px 10px 10px 0px;
 }
 
-.form h2 {
+.form-registro h2 {
     color: #e84e2b;
     font-size: 30px;
     margin-bottom: 25px;
 }
 
-.inputs {
+.inputs-registro {
     display: flex;
     flex-direction: column;
 }
 
-.inputs a {
-    color: #e84e2b;
-    font-size: 15px;
-    margin-bottom: 35px;
-    text-align: start;
-}
+.grupo-registro{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    background-color: #ffefe3;
+    height: 3em;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
 
-.inputs p a {
-    text-decoration: none;
-}
-
-.box {
+    border: 2px solid transparent;
     outline: none;
-    border-color: #e84e2b;
-    border-width: 0px 0px 0px 5px;
-    border-style: solid;
-    padding: 15px 35px;
-    margin-bottom: 20px;
-    background-color: #ffece3e7;
+    overflow: hidden;
+    transition: all 0.5s;
 }
+
+.grupo-registro:hover,
+.grupo-registro:focus {
+    border: 2px solid #ec7d4a;
+    box-shadow: 0px 0px 0px 7px rgba(236, 147, 74, 0.2);
+    background-color: white;
+}
+
+#seccion-registro{
+    margin-right: 15px;
+    /* background-color: #15ff00; */
+}
+
+.box-registro {
+    height: 2.5rem;
+    width: 100%;
+    padding-bottom: 4px;
+    border: transparent;
+    outline: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* .box-registro {
+    border: 2px solid transparent;
+    height: 2.5em;
+    width: 100%;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #ffe5d3;
+    border-radius: 10px;
+    transition: all 0.5s; 
+    
+    .box-registro:hover,
+    .box-registro:focus {
+        border: 2px solid #ec7d4a;
+        box-shadow: 0px 0px 0px 7px rgba(236, 147, 74, 0.2);
+        background-color: white;
+    }
+} */
+
+/* .grupo-registro .enrgb(255, 106, 0)o{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+} */
+
+/* #circulo-registro{
+    background-color: #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+} */
 
 .button {
     height: 50px;
@@ -153,17 +201,17 @@ body {
 
 
 @media(max-width:990px) {
-    .container {
+    .container2 {
         width: 350px;
         height: auto;
-        margin-top: 50px;
+        margin-top: 50px;        
     }
 
-    .info {
+    .info-registro {
         display: none;
     }
 
-    .form {
+    .form-registro {
         width: 100%;
         padding: 30px;
     }
