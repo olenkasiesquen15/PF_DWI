@@ -4,6 +4,14 @@
     margin: 0;
 }
 
+.nav.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    z-index: 100; /* Aumenta el valor de z-index para que los elementos posteriores no se puedan sobreponer*/
+}
+
 .container{    
     background-color: #eeeeee;
 }
@@ -33,19 +41,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    width: 98%;
-    transition: all 0.5s ease;
-    position: fixed;
-}
-
-.nav.active{
-    width: 98%;
-    padding: 25px;
-}
-
-.scrol{
-    height: 80px;
 }
 
 .logotipo a{    

@@ -2,13 +2,12 @@
 
 <main class="restaurant">
     <div class="portada">
-        <img src="../img/RESTAURANTES-PORTADAS/mariscos.jpg" alt="">
         <div class="texto">
             <h1>Nikko - La Molina</h1>
             <span>Pescados y Mariscos | La Molina</span>
         </div>
     </div>
-    
+
     <div class="info-restaurant">
         <div class="info-general">
             <h2>Nikko - La Molina</h2>
@@ -27,7 +26,11 @@
     </div>
 
     <div class="detalles-restaurant">
-        <h2>Detalles</h2>
+        <div class="det">
+            <h2>Detalles</h2>
+            <hr>
+        </div>
+
         <div class="detalles-grupo1">
             <img src="../img/RESTAURANTES-PORTADAS/suugc-foto-fotonetflix3-nikko-la-molina-1.webp" alt="">
             <div class="detalles-grupo2">
@@ -72,6 +75,96 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="detalles-restaurant">
+        <div class="det">
+            <h2>Galería</h2>
+            <hr>
+        </div>
+
+        <section class="platos">
+            <div class="galery">
+                <img src="../img/RESTAURANTES-PORTADAS/1.jpg" alt="1" />
+                <img src="../img/RESTAURANTES-PORTADAS/2.webp" alt="2" />
+                <img src="../img/RESTAURANTES-PORTADAS/3.webp" alt="3" />
+                <img src="../img/RESTAURANTES-PORTADAS/4.webp" alt="4" />
+                <img src="../img/RESTAURANTES-PORTADAS/5.jpg" alt="5" />
+            </div>
+        </section>
+    </div>
+
+    <div class="detalles-restaurant">
+        <div class="det">
+            <h2>Ubicación</h2>
+            <hr>
+        </div>
+
+        <div class="detalles-grupo1">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5725743360636!2d-76.94660902504697!3d-12.072902488165921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6e7aae95ffd%3A0xf82c6d20fec1a363!2sAv.%20la%20Fontana%201137%2C%20Lima%2015024!5e0!3m2!1ses!2spe!4v1698343652190!5m2!1ses!2spe"
+                width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="detalles-restaurant">
+        <div class="det">
+            <h2>Reseñas</h2>
+            <hr>
+        </div>
+
+        <section class="resena">
+            <div class="card-valoracion">
+                <h3>¡Cuéntanos tu experiencia!</h3>
+                <form action="procesar_valoracion.php" method="post">
+                    <div class="rating">                        
+                        <input type="radio" id="star5" name="rating" value="5" />
+                        <label for="star5">★</label>
+                        
+                        <input type="radio" id="star4" name="rating" value="4" />
+                        <label for="star4">★</label>
+                        
+                        <input type="radio" id="star3" name="rating" value="3" />
+                        <label for="star3">★</label>                                            
+                        
+                        <input type="radio" id="star2" name="rating" value="2" />
+                        <label for="star2">★</label>
+
+                        <input type="radio" id="star1" name="rating" value="1" />
+                        <label for="star1">★</label>
+                    </div>
+                    <textarea id="comentario" name="comentario" rows="4" placeholder="Déjanos tu comentario..." required></textarea>
+                    <br><br>
+                    <!-- <input type="submit" value="Enviar Valoración" class="send-btn"> -->
+                    <div class="btn-val">
+                        <button type="submit" class="send-btn">
+                            <span>Agregar comentario</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card-comentarios">
+                <div class="coments">
+                    <h2>NOMBRE</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                </div>
+                <div class="coments">
+                    <h2>NOMBRE</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                </div>
+                <div class="coments">
+                    <h2>NOMBRE</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                </div>
+                <div class="coments">
+                    <h2>NOMBRE</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                </div>
+            </div>            
+        </section>
+        
     </div>
 
 </main>

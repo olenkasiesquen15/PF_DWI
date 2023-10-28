@@ -1,5 +1,5 @@
 <?php include("templates/encabezado.php");?>
-<body>
+
     <main class="container">
         <div class="contprincipal">            
             <div class="slogan">

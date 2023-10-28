@@ -1,6 +1,4 @@
 <?php include("templates/encabezado.php"); ?>
-
-<body>
     <main class="nosotros">
         <div class="mision">
             <div class="fondo-img">

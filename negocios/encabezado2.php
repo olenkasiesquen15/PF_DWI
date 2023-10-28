@@ -13,23 +13,22 @@
     <title>Time Tap</title>
 </head>
 
-<header>
-    <nav class="nav">
-        <div class="logotipo">
-            <a href="../main.php">
-                <img src="../img/LOGOS/logo2.png" alt="">
-                <h1>Time Tap</h1>
-            </a>
-            
-        </div>
-        <div class="option">
-            <ul>
-                <a href="../main.php"><li class="op1">Inicio</li></a>
-                <a href="../nosotros.php"><li class="op1">Nosotros</li></a>
-                <a href="../inicioSesion.php"><li class="op1">Iniciar Sesión</li></a>
-            </ul>
-        </div>
-    </nav>
-</header>
-<div class="scrol"></div>
-<script src="../js/navegacion.js"></script>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logotipo">
+                <a href="../main.php">
+                    <img src="../img/LOGOS/logo2.png" alt="">
+                    <h1>Time Tap</h1>
+                </a>
+                
+            </div>
+            <div class="option">
+                <ul>
+                    <a href="../main.php"><li class="op1">Inicio</li></a>
+                    <a href="../nosotros.php"><li class="op1">Nosotros</li></a>
+                    <a href="../inicioSesion.php"><li class="op1">Iniciar Sesión</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>

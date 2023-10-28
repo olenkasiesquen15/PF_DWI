@@ -9,8 +9,8 @@
             </div>
             <div class="box">
                 <h2>Time Tap</h2>
-                <p>- Conectamos a las personas con los lugares que quieren visitar, de una manera fácil y conveniente.</p>
-                <p>- Somos una plataforma de reservas de lugares más popular del mundo, ayudando a las personas a descubrir 
+                <p>Conectamos a las personas con los lugares que quieren visitar, de una manera fácil y conveniente.</p>
+                <p>Somos una plataforma de reservas de lugares más popular del mundo, ayudando a las personas a descubrir 
                     y disfrutar de nuevos lugares.</p>
             </div>
             <div class="box">
@@ -26,6 +26,8 @@
             <small>&copy; 2023 <b>Time Tap</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
+    <!-- Scripts -->
+    <script src="../js/navegacion.js"></script>
 </body>
 
 </html>
