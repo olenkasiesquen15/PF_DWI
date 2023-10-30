@@ -18,7 +18,7 @@
                 ingredientes y técnicas japonesas, un homenaje a los maestros. Por eso Nikko no es un sushi bar, Nikko
                 es una cebicheria nikkei.
             </p>
-            <a href="#" scoped>
+            <a href="reserva.php">
                 <button id="bottone1"><strong>Reserva ahora</strong></button>
             </a>
         </div>

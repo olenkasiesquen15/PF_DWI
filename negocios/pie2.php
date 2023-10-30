@@ -27,6 +27,7 @@
         </div>
     </footer>
     <!-- Scripts -->
+    <script src="../js/reserva-servicios.js"></script>
     <script src="../js/navegacion.js"></script>
 </body>
 

@@ -1,0 +1,150 @@
+
+.reservass .container {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 0 3rem 0;
+    background-color: white;
+    /* border: #0060E0 1px dashed; */
+}
+
+.people-selection h1 {
+    text-align: center;
+    color: #333;
+}
+
+.selections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*:::: Estilos del botón volver ::::*/
+
+.reservass a{
+    text-decoration: none;
+    /* border: #0060E0 1px dashed; */
+    background-color: transparent;
+    display: block;
+    width: fit-content;
+    margin: 2rem 0 0 3rem;
+}
+
+.volver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 2rem 0 0 3rem; */
+    padding: 0.5rem 1.1rem;
+    border: 3px solid #fe5103;
+    color: #fe5103;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 14px;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.volver:hover {
+    background: #fe5103;
+    color: white;
+}
+
+
+
+/*:::: Estilos de los círculos para selección de personas ::::*/
+
+.selections .people-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.selections .people-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.people-options .circle {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    border: 2px solid #0060E0;
+    margin: 5px;
+    font-weight: bold;
+    background: #fff;
+    color: #0060E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.people-options .circle.active {
+    background: #0060E0;
+    color: #fff;
+    border-color: #0060E0;
+}
+
+
+/*:::: Estilos de la fecha y hora ::::*/
+
+.date-time-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.date-input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+     /* Ajusta el ancho a tu preferencia */
+    height: 60px; /* Ajusta la altura a tu preferencia */
+    padding: 0;
+    margin: 0;
+    border: none;
+    /* background: url('../img/LOGOS/calendar-regular.svg') center no-repeat; */
+    cursor: pointer;
+}
+
+input[type="time"] {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus {
+    outline: none;
+    border-color: #0060E0;
+}
+
+
+
+
+/*:::: Estilos del botón de reserva ::::*/
+
+#reserveButton {
+    width: 10rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reserveButton:hover {
+    background-color: #45a049;
+}
+

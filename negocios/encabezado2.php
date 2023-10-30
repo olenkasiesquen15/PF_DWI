@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/nosotros.css">
     <link rel="stylesheet" href="../css/rest-nikko.css">
+    <link rel="stylesheet" href="../css/reserva-servicio.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>    
     <title>Time Tap</title>
