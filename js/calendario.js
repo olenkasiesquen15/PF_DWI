@@ -19,23 +19,37 @@ const renderCalendar = () => {
     
     let liTag = "";
 
-    for (let i = firstDayofMonth; i > 0; i--) { //creando li del mes anterior el último día
+    for (let i = firstDayofMonth; i > 0; i--) {     //creando li del mes anterior el último día
         liTag += `<li class="inactive">${lastDateofLastMonth - i + 1}</li>`;        
     }
 
-    for (let i = 1; i <= lastDateofMonth; i++) {//creando li de todos los días del mes actual
+    for (let i = 1; i <= lastDateofMonth; i++) {    //creando li de todos los días del mes actual
         //agregar clase activa a li si el día, mes y año actuales coinciden
-        let isToday = i === date.getDate() && currMonth === new Date().getMonth() && currYear === new Date().getFullYear() ? "active" : "";
-        liTag += `<li class="${isToday}">${i}</li>`;
-    }
+        /* 
+            let isToday = i === date.getDate() && currMonth === new Date().getMonth() && currYear === new Date().getFullYear() ? "active" : "";
+            liTag += `<li class="${isToday}">${i}</li>`; 
+        */
+        liTag += `<li class="actual">${i}</li>`;
+        console.log(liTag);
+    }            
 
-    for (let i = lastDayofMonth; i < 6; i++) {//creando li de los primeros días del próximo mes
+    for (let i = lastDayofMonth; i < 6; i++) {  //creando li de los primeros días del próximo mes
         liTag += `<li class="inactive">${i - lastDayofMonth + 1}</li>`;
     }
 
-
     currentDate.innerText = `${months[currMonth]} ${currYear}`;
     daysTag.innerHTML = liTag;
+    
+    // Manejar el evento click después de haber creado todos los elementos
+    const dias = document.querySelectorAll('.actual');
+    dias.forEach(actual => {
+        actual.addEventListener('click', function () {
+            // Remover la clase 'active' de todos los elementos y agregarla al elemento clickeado
+            dias.forEach(c => c.classList.remove('active'));
+            actual.classList.add('active');
+            console.log("Elemento clickeado");
+        });
+    });
 }
 
 renderCalendar();
@@ -56,5 +70,7 @@ prevNextIcon.forEach(icon => {
         renderCalendar();
     });
 });
+
+
 
 console.log(date, currYear, currMonth);

@@ -1,0 +1,89 @@
+.negocios {
+    font-family: Verdana, Geneva, Tahoma, 'sans-serif';
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    border-radius: 15px;
+    padding: 40px 50px;
+    width: 800px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.description-neg {
+    /* border: #9dff00 dashed; */
+    margin-left: 5px;
+    /* width: 100%; */
+}
+
+.description-neg h1 {
+    margin-bottom: 2.5rem;
+    padding-bottom: 5px;
+    width: 790px;
+    border-bottom: #000 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-neg form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.description-neg form h1{
+    margin-bottom: 2.5rem;
+    padding-bottom: 5px;
+    width: 500px;
+    border-bottom: #000 1px solid;
+}
+
+.form-neg {
+    margin-bottom: 2rem;
+}
+
+.neg-control {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#textarea{
+    font-family: Verdana, Geneva, Tahoma, 'sans-serif';
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    height: 10rem;
+}
+
+.neg-img{
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para el input */
+.neg-img input{
+    border: 1px solid #ccc;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    background-color: #eeeeee;
+    color: #444;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+/* Estilos cuando el input está enfocado */
+.neg-img input:focus {
+    border-color: #6e90ff;
+    outline: none;
+}
+
+/* Estilos cuando el input está activo (cuando el usuario está interactuando con él) */
+.neg-img input:active {
+    border-color: #0076ff;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
